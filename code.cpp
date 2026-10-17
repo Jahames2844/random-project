@@ -37,12 +37,8 @@ int main()
     bool GetsBonus = (AverageScore >= 70 || numberOfCompAssignments >= 15);
     bool Failing = (AverageScore < 50);
 
-    cout << "Student name: \n";
-    cout << StudentName;
-    
-    cout << "AverageScore: \n";
-    cout << AverageScore;
-    
+    cout << "Student name: " << StudentName << "\n";
+    cout << "AverageScore: " << AverageScore << "\n";
     cout << "Passes: " << (Passed ? "true" : "false") << "\n";
     cout << "Gets Bonus:" << (GetsBonus ? "true" : "false") << "\n";
     cout << "Failing: " << (Failing ? "true" : "false") << "\n";
